@@ -2,20 +2,90 @@
     position: relative;
     top: 0px;
     left: 0px;
-    width: 1920px;
-    height: 5463px;
+    width: 100%;
+    max-width: 1920px;
+    /* height: 5463px; */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
+
+/*  */
+
+.header {
+    /* background: transparent linear-gradient(91deg, #FF416C 0%, #FF4B2B 100%) 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+.logo {
+    /* position: absolute;
+    margin-top: 50px;
+    margin-left: 372px; */
+    width: auto;
+    height: 43px;
+    max-width: 183px;
+    max-height: 50px;
+    background: transparent url('../../../assets/images/Asset1.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.headerlinks {
+    /* font-family: "Poppins-Medium"; */
+    /* font-size: "14px"; */
+    padding: 5px;
+    float: right;
+    color: #FFFFFF;
+}
+
+.serachbox {
+    /* top: 56px;
+    left: 1371px; */
+    min-width: 20px;
+    min-height: 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 9;
+    border-radius: 60px
+}
+
+input[type=text] {
+    width: 0.5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('../../../assets/images/search.svg');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 12px 7px 3px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 10%;
+}
+
+.absolute {
+    position: absolute;
+    /* top: 20px; */
+    /* left: 120px; */
+}
+
 .bg {
-    margin-top: -0.000009775161743164062px;
+    /* margin-top: -0.000009775161743164062px;
     margin-left: 0px;
-    width: 1920px;
+    width: auto;
+    height: auto; */
+    width: 100%;
+    min-width: 1921px;
     height: 972px;
     background: transparent url('../../../assets/images/Bg.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+
+/*  */
 
 .content_1 {
     padding-top: 276px;
@@ -31,7 +101,7 @@
 }
 
 .content_2 {
-    margin-top: -45px;
+    margin-top: 81px;
     margin-left: 372px;
     width: 427px;
     height: 96px;
@@ -39,16 +109,6 @@
     font: Regular 22px Poppins;
     letter-spacing: 0;
     color: #FFFFFF;
-    opacity: 1;
-}
-
-.logo {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 372px;
-    width: 183px;
-    height: 50px;
-    background: transparent url('../../../assets/images/Asset1.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
@@ -111,11 +171,11 @@
 }
 
 .searchIcon {
-    position: absolute;
+    /* position: absolute;
     margin-top: 56px;
-    margin-left: 1371px;
-    width: 18px;
-    height: 18px;
+    margin-left: 1371px; */
+    min-width: 50px;
+    min-height: 50px;
     /* background: transparent url('../../../assets/images/search.svg') 0% 0% no-repeat padding-box; */
     background: transparent url('../../../assets/images/search.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -402,10 +462,56 @@
 }
 
 .features {
-    top: 2410px;
-    left: 0px;
+    position: absolute;
+    margin-top: 1500px;
+    margin-left: 0px;
     width: 1920px;
     height: 604px;
-    /* background: transparent url('../../../assets/images/2.svg') 0% 0% no-repeat padding-box; */
+    background: transparent url('../../../assets/images/2.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
+}
+
+.content_3 {
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 280px;
+    width: 600px;
+    height: 127px;
+    text-align: left;
+    font: Bold 30px Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.content_4 {
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 280px;
+    width: 647.31px;
+    height: 102px;
+    text-align: left;
+    /* font: 22px Poppins; */
+    font: Regular 22px Poppins;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.roundBtn {
+    margin-left: 12px;
+    margin-top: 4px;
+    width: 57px;
+    height: 31px;
+    /* margin-left: 12px;
+    margin-top: 4px;
+    width: 128px;
+    height: 31px; */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    font-size: 12px;
+    float: right;
+    /* padding: -4px */
 }
